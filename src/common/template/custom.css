@@ -10,3 +10,5 @@ button {
 .table-actions {
     width: 150px;
 }
+
+.table-credits td { padding: 5px 5px; }

@@ -21,7 +21,6 @@ class ItemList extends Component {
 
     renderRows() {
         const list = (this.props.list.length) ? this.props.list : [{ name: '', value: 0, status: '' }]
-        console.log(list);
         return list.map((item, index) => (
             <tr key={index}>
                 <td><Field name={`${this.props.field}[${index}].name`} component='input' component={Input}
